@@ -23,8 +23,8 @@
       </div>
     </aside>
 
-    <div class="content">
-      <table>
+    <section>
+      <table id="m">
         <tbody>
           <tr>
             <td>
@@ -57,163 +57,222 @@
           </tr>
         </tbody>
       </table>
-    </div>
+    </section>
 
     <section id="friend">
-      <h3>92113463 권승원</h3>
-      <h3>92113528 김민기</h3>
-      <h3>92113748 윤현식</h3>
-      <h3>92113932 홍영재</h3>
-    </section>
-
-    <section id="me">
-      <p>나</p>
-    </section>
-
-    <section id="secon" class="section">
-      <div id="second-background">
-        <p>세계보안엑스포 내용</p>
+      <div class="box">
+        <h1><a href="https://team-livid.vercel.app/">92113463 권승원</a></h1>
+        <br />
+        현재 14살 강아지 시츄를 키우고 있는 21학번 학생입니다 좋아하는 것은
+        잠자기이고 좋아하는 음식은 치킨입니다
+      </div>
+      <div class="box">
+        <h1>
+          <a href="https://jbu-personal-homepage.vercel.app/"
+            >92113528 김민기</a
+          >
+        </h1>
+        <br />
+        고등학교때 모든 것을 배우고 온 21학번 학생입니다 좋아하는 것 : 코딩
+        좋아하는 음식 : 주꾸미 볶음
+      </div>
+      <div class="box">
+        <h1><a href="https://midweb.vercel.app/">92113748 윤현식</a></h1>
+        <br />
+        학생회에 없어서는 안될 유명인사 21학번 학생입니다 좋아하는 것 : 게임
+        좋아하는 음식 : 고기
+      </div>
+      <div class="box">
+        <h1><a href="https://webhomework.vercel.app/">92113932 홍영재</a></h1>
+        <br />
+        남자다움 그 자체 21학번 학생입니다 좋아하는 것 : 게임 좋아하는 음식 :
+        연어초밥
       </div>
     </section>
 
+    <section id="me">
+      <div class="image-container">
+        <a href="#modal1"><button>1학년 성적</button></a>
+        <a href="#modal2"><button>2학년 1학기 시간표</button></a>
+
+        <div class="modal" id="modal1">
+          <img class="modal-content" src="/img/성적.png" alt="성적" />
+        </div>
+
+        <div class="modal" id="modal2">
+          <img class="modal-content" src="/img/시간표.png" alt="시간표" />
+        </div>
+      </div>
+    </section>
+
+    <section id="secon" class="section center-content">
+      <div id="secon-background">
+        <img src="/img/TEXT.png" />
+      </div>
+      <h2>세계보안엑스포(SECON2024) 느낀점</h2>
+      <form id="commentForm" method="post">
+        <label for="comment">댓글:</label><br />
+        <textarea id="comment" name="comment" rows="4" cols="50"></textarea
+        ><br />
+        <input type="submit" value="댓글 남기기" />
+      </form>
+    </section>
+
     <section id="check" class="section">
-      <div id="check-background"></div>
-      <table id="t">
-        <thead>
-          <tr>
-            <th>번호</th>
-            <th>셀프체크(O/X)</th>
-            <th>항목 및 응답 - 필요한 경우 Answer에 상세 설명을 작성 요망</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>1</td>
-            <td>O</td>
-            <td>Q. 메뉴와 일관성 있는 디자인을 사용하였나?</td>
-          </tr>
-          <tr>
-            <td>2</td>
-            <td>O</td>
-            <td>Q. 자신의 포트폴리오 정보를 제시하고 있는가?</td>
-          </tr>
-          <tr>
-            <td>3</td>
-            <td>O</td>
-            <td>Q. 팀프로젝트/팀원에 대한 소개와 링크를 제공하고 있는가?</td>
-          </tr>
-          <tr>
-            <td>4</td>
-            <td>O</td>
-            <td>Q. HCJ 데모 홈페이지를 수정, 완성하여 링크하였나?</td>
-          </tr>
-          <tr>
-            <td>5</td>
-            <td></td>
-            <td>Q. 블로그 만들기 실습 홈페이지를 수정, 완성하여 링크하였나?</td>
-          </tr>
-          <tr>
-            <td>6</td>
-            <td>O</td>
-            <td>Q. 순수 CSS를 활용하는 페이지를 포함하고 있는가?</td>
-          </tr>
-          <tr>
-            <td>7</td>
-            <td></td>
-            <td>
-              Q. Bootstrap 프레임워크를 사용하는 페이지를 포함하고 있는가?
-            </td>
-          </tr>
-          <tr>
-            <td>8</td>
-            <td></td>
-            <td>Q. Tailwind CSS를 활용하는 페이지를 포함하고 있는가?</td>
-          </tr>
-          <tr>
-            <td>9</td>
-            <td>O</td>
-            <td>Q. 시맨틱 태그(semantic tag)를 사용하였는가?</td>
-          </tr>
-          <tr>
-            <td>10</td>
-            <td></td>
-            <td>Q. 입력양식(form)을 활용한 페이지를 포함하고 있는가?</td>
-          </tr>
-          <tr>
-            <td>11</td>
-            <td>O</td>
-            <td>Q. 표(table)를 사용한 페이지를 포함하고 있는가?</td>
-          </tr>
-          <tr>
-            <td>12</td>
-            <td>O</td>
-            <td>
-              Q. class선택자, id선택자, type선택자, 가상클래스선택자를 사용했나?
-            </td>
-          </tr>
-          <tr>
-            <td>13</td>
-            <td>O</td>
-            <td>Q. 박스모델을 설명하고 활용하는 페이지를 포함하고 있는가?</td>
-          </tr>
-          <tr>
-            <td>14</td>
-            <td></td>
-            <td>Q. flexbox layout을 활용하는 페이지를 포함하고 있는가?</td>
-          </tr>
-          <tr>
-            <td>15</td>
-            <td></td>
-            <td>Q. grid layout을 활용하는 페이지를 포함하고 있는가?</td>
-          </tr>
-          <tr>
-            <td>16</td>
-            <td></td>
-            <td>
-              Q. 트랜지션, 애니메이션을 활용하는 페이지를 포함하고 있는가?
-            </td>
-          </tr>
-          <tr>
-            <td>17</td>
-            <td></td>
-            <td>Q. 반응형 웹 기술을 활용하여 모바일 레이아웃을 구현했는가?</td>
-          </tr>
-          <tr>
-            <td>18</td>
-            <td></td>
-            <td>
-              Q. 최종 홈페이지가 휴대폰 화면에서도 적절하게 표시되고 있는가?
-            </td>
-          </tr>
-          <tr>
-            <td>19</td>
-            <td></td>
-            <td>
-              Q. github 계정 초기화면에 자신의 정보를 적절히 작성하였는가?
-            </td>
-          </tr>
-          <tr>
-            <td>20</td>
-            <td></td>
-            <td>Q. 팀프로젝트 홈페이지를 자신의 계정에서 등록하였는가?</td>
-          </tr>
-          <tr>
-            <td>21</td>
-            <td></td>
-            <td>
-              Q. 자신의 github 저장소와 deploy한 홈페이지 주소는 서로 링크되어
-              있는가?
-            </td>
-          </tr>
-          <tr>
-            <td>22</td>
-            <td></td>
-            <td>
-              Q. 세계보안엑스포(SECON2024) 참관 관련 페이지를 제공하고 있는가?
-            </td>
-          </tr>
-        </tbody>
-      </table>
+      <div id="check-background">
+        <table id="t">
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <thead>
+            <tr>
+              <th>번호</th>
+              <th>셀프체크(O/X)</th>
+              <th>항목 및 응답 - 필요한 경우 Answer에 상세 설명을 작성 요망</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>O</td>
+              <td>Q. 메뉴와 일관성 있는 디자인을 사용하였나?</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>O</td>
+              <td>Q. 자신의 포트폴리오 정보를 제시하고 있는가?</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>O</td>
+              <td>Q. 팀프로젝트/팀원에 대한 소개와 링크를 제공하고 있는가?</td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>O</td>
+              <td>Q. HCJ 데모 홈페이지를 수정, 완성하여 링크하였나?</td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td>O</td>
+              <td>
+                Q. 블로그 만들기 실습 홈페이지를 수정, 완성하여 링크하였나?
+              </td>
+            </tr>
+            <tr>
+              <td>6</td>
+              <td>O</td>
+              <td>Q. 순수 CSS를 활용하는 페이지를 포함하고 있는가?</td>
+            </tr>
+            <tr>
+              <td>7</td>
+              <td>사용x</td>
+              <td>
+                Q. Bootstrap 프레임워크를 사용하는 페이지를 포함하고 있는가?
+              </td>
+            </tr>
+            <tr>
+              <td>8</td>
+              <td>사용x</td>
+              <td>Q. Tailwind CSS를 활용하는 페이지를 포함하고 있는가?</td>
+            </tr>
+            <tr>
+              <td>9</td>
+              <td>O</td>
+              <td>Q. 시맨틱 태그(semantic tag)를 사용하였는가?</td>
+            </tr>
+            <tr>
+              <td>10</td>
+              <td>O</td>
+              <td>Q. 입력양식(form)을 활용한 페이지를 포함하고 있는가?</td>
+            </tr>
+            <tr>
+              <td>11</td>
+              <td>O</td>
+              <td>Q. 표(table)를 사용한 페이지를 포함하고 있는가?</td>
+            </tr>
+            <tr>
+              <td>12</td>
+              <td>O</td>
+              <td>
+                Q. class선택자, id선택자, type선택자, 가상클래스선택자를
+                사용했나?
+              </td>
+            </tr>
+            <tr>
+              <td>13</td>
+              <td>O</td>
+              <td>Q. 박스모델을 설명하고 활용하는 페이지를 포함하고 있는가?</td>
+            </tr>
+            <tr>
+              <td>14</td>
+              <td>O</td>
+              <td>Q. flexbox layout을 활용하는 페이지를 포함하고 있는가?</td>
+            </tr>
+            <tr>
+              <td>15</td>
+              <td>O</td>
+              <td>Q. grid layout을 활용하는 페이지를 포함하고 있는가?</td>
+            </tr>
+            <tr>
+              <td>16</td>
+              <td>O</td>
+              <td>
+                Q. 트랜지션, 애니메이션을 활용하는 페이지를 포함하고 있는가?
+              </td>
+            </tr>
+            <tr>
+              <td>17</td>
+              <td>x</td>
+              <td>
+                Q. 반응형 웹 기술을 활용하여 모바일 레이아웃을 구현했는가?
+              </td>
+            </tr>
+            <tr>
+              <td>18</td>
+              <td>x</td>
+              <td>
+                Q. 최종 홈페이지가 휴대폰 화면에서도 적절하게 표시되고 있는가?
+              </td>
+            </tr>
+            <tr>
+              <td>19</td>
+              <td>O</td>
+              <td>
+                Q. github 계정 초기화면에 자신의 정보를 적절히 작성하였는가?
+              </td>
+            </tr>
+            <tr>
+              <td>20</td>
+              <td>O</td>
+              <td>Q. 팀프로젝트 홈페이지를 자신의 계정에서 등록하였는가?</td>
+            </tr>
+            <tr>
+              <td>21</td>
+              <td>O</td>
+              <td>
+                Q. 자신의 github 저장소와 deploy한 홈페이지 주소는 서로 링크되어
+                있는가?
+              </td>
+            </tr>
+            <tr>
+              <td>22</td>
+              <td>O</td>
+              <td>
+                Q. 세계보안엑스포(SECON2024) 참관 관련 페이지를 제공하고 있는가?
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </section>
 
     <footer>

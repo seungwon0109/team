@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+}
+
+/* Sidebar */
+aside#sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 100vh;
+  background-color: #333;
+  color: white;
+  padding-top: 20px;
+  overflow-y: auto;
+  z-index: 1;
+}
+
+aside#sidebar .container {
+  padding: 20px;
+}
+
+aside#sidebar h3 {
+  font-size: 40px;
+  margin-bottom: 0px;
+}
+
+aside#sidebar ul {
+  list-style: none;
+  font-size: 25px;
+  padding: 30px;
+}
+
+aside#sidebar ul li {
+  margin-bottom: 40px;
+  padding: 10px;
+}
+
+aside#sidebar ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+aside#sidebar ul li a:hover {
+  text-decoration: underline;
+}
+
+.showcase {
+  position: absolute;
+  top: 0;
+  left: 150px;
+  height: 100vh;
+  width: calc(100% - 150px);
+  background: url('../img/case.webp') no-repeat center;
+  background-size: cover;
+  text-align: center;
+  color: white;
+  z-index: 0;
+}
+
+.showcase-content {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.showcase-content img {
+  width: 200px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.showcase-content h1 {
+  font-size: 120px;
+  margin-bottom: 40px;
+}
+
+.showcase-content p {
+  font-size: 40px;
+}
+
+#secon-background {
+  background-image: url('/img/secon-b.jpg');
+  margin-left: 200px;
+  background-size: cover; /* 배경 이미지를 커버하도록 설정 */
+  background-position: center; /* 배경 이미지를 가운데 정렬 */
+  min-height: 100vh;
+}
+
+#check-background {
+  background-image: url('/img/list-b.jpg');
+  margin-left: 200px;
+  background-size: cover; /* 배경 이미지를 커버하도록 설정 */
+  background-position: center; /* 배경 이미지를 가운데 정렬 */
+  min-height: 140vh;
+}
+
+table {
+  width: calc(100% - 180px);
+  margin-left: 200px; /* 사이드바의 너비만큼 왼쪽으로 이동 */
+}
+
+#t {
+  width: 70%; /* 테이블의 너비를 지정 (나머지 공간을 차지하도록) */
+  margin: 0 auto; /* 테이블을 가운데 정렬하기 위해 자동 마진 설정 */
+  border-collapse: collapse;
+}
+
+table td {
+  padding: 20px;
+  border: 4px solid #000;
+  text-align: center;
+  vertical-align: middle;
+}
+
+table td a img {
+  width: 500px; /* 이미지의 너비를 200px로 설정합니다. */
+  height: auto; /* 이미지의 높이는 자동으로 조절됩니다. */
+}
+
+section {
+  min-height: 100vh;
+  padding: 20px;
+  border: 10px solid #ddd;
+}
+
+.section.active {
+  display: block;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h2 {
+  font-size: 24px;
+  color: #333;
+}
+
+/* Footer */
+footer {
+  padding: 20px;
+  margin-top: 20px;
+  color: white;
+  background-color: #e8491d;
+  text-align: center;
+}
